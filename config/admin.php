@@ -1,6 +1,6 @@
 <?php
 
 return [
-    "username" => "admin",
-    "password" => "secret123",
+    "username" => env("APP_USERNAME"),
+    "password" => env("APP_PASSWORD"),
 ];
